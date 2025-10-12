@@ -55,7 +55,7 @@ export const Skills = () => {
       className="py-20 px-8 bg-gradient-to-br from-void to-gray-900"
     >
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold mb-12 gradient-text">
+        <h2 className="text-4xl font-bold mb-12 gradient-text text-cyan-300">
           {t("skills.title1")}{" "}
           <span className="text-white">{t("skills.title2")}</span>
         </h2>
@@ -68,8 +68,8 @@ export const Skills = () => {
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-glass rounded-full">
                 <img src={skill.icon} alt={skill.name} className="w-10 h-10" />
               </div>
-              <h3 className="font-bold">{skill.name}</h3>
-              <p className="text-sm opacity-70">{skill.type}</p>
+              <h3 className="font-bold text-white">{skill.name}</h3>
+              <p className="text-sm opacity-70 text-gray-300">{skill.type}</p>
             </div>
           ))}
         </div>

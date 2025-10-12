@@ -1,35 +1,51 @@
 {
-   "navbar":{
-        "title1":"MI",
-        "title2":"PORTAFOLIO",
-        "languaje1":"Inglés",
-        "languaje2":"Español",
-        "nav1":"Sobre mí",
-        "nav2":"Mis Proyectos",
-        "nav3":"Tecnologías"
-   },
-    "hero":{
-     "title1":"Desarrollador",
-     "title2":"Full Stack",
-     "title3":"Impulsando experiencias web modernas",
-     "view":"Mis Proyectos",
-     "contact":"Contáctame"
-
-    },
-    "about":{
-
-    },
-    "cv":{
-
-    },
-    "skills":{
-      "title1":"Stack",
-        "title2":"Tecnológico"
-    },
-    "projects":{
-
-    },
-    "contact":{
-        
-    }
+  "navbar": {
+    "title1": "MI",
+    "title2": "PORTAFOLIO",
+    "languaje1": "Inglés",
+    "languaje2": "Español",
+    "nav1": "Sobre mí",
+    "nav2": "Mis Proyectos",
+    "nav3": "Tecnologías"
+  },
+  "hero": {
+    "title1": "Desarrollador",
+    "title2": "Full Stack",
+    "title3": "Impulsando experiencias web modernas",
+    "view": "Mis Proyectos",
+    "contact": "Contáctame"
+  },
+  "about": {
+    "title1": "Sobre mí",
+    "desc": "Desarrollador Full Stack en formación, con experiencia en React, Angular, Spring Boot y bases de datos SQL/NoSQL. Comprometido con el aprendizaje continuo y la creación de soluciones eficientes e innovadoras.",
+    "link": "Mira mi cv completo aquí"
+  },
+  "skills": {
+    "title1": "Stack",
+    "title2": "Tecnológico"
+  },
+  "projects": {
+    "title1": "Proyectos",
+    "title2": "Destacados",
+    "project1t": "Escuela de Derechos – Defensoría del Pueblo",
+    "project1d": "Apoyé como ayudante en el desarrollo y mantenimiento de la plataforma educativa de la Defensoría del Pueblo. Participé en la mejora de funcionalidades, solución de errores y creación de nuevas APIs tanto en backend como frontend.",
+    "project2t": "Página web informativa – Unidad Educativa Lincoln Larrea",
+    "project2d": "Desarrollé una web institucional moderna y responsiva con información para estudiantes y padres. Se implementó con React y Firebase para un despliegue rápido y mantenimiento sencillo.",
+    "project3t": "FocusUp",
+    "project3d": "Aplicación web sobre técnicas de estudio y productividad, desarrollada con React, TypeScript y Vite. Incluye diseño responsivo, componentes reutilizables y una interfaz optimizada para estudiantes.",
+    "view": "Ver Proyecto →"
+  },
+  "contact": {
+    "title1": "Contáctame",
+    "desc": "Si quieres colaborar o simplemente saludar, ¡no dudes en enviarme un mensaje a continuación!",
+    "lb1": "Nombre",
+    "pc1": "Tu nombre",
+    "lb2": "Correo electrónico",
+    "pc2": "tu@ejemplo.com",
+    "lb3": "Mensaje",
+    "pc3": "Escribe tu mensaje aquí...",
+    "sub": "Enviar mensaje",
+    "success": "¡Tu mensaje ha sido enviado con éxito!",
+    "error": "¡Ups! Ocurrió un error al enviar tu mensaje"
+  }
 }

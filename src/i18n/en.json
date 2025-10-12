@@ -1,34 +1,51 @@
 {
-    "navbar":{
-        "title1":"DEV",
-        "title2":"PORT",
-        "languaje1":"English",
-        "languaje2":"Spanish",
-        "nav1":"About",
-        "nav2":"Work",
-        "nav3":"Skills"
-   },
-    "hero":{
-    "title1":"Full Stack",
-     "title2":"Developer",
-     "title3":"Building Modern Web Experiences",
-     "view":"View Projects",
-     "contact":"Contact Me"
-    },
-    "about":{
-
-    },
-    "cv":{
-
-    },
-    "skills":{
-        "title1":"Tech",
-        "title2":"Stack"
-    },
-    "projects":{
-
-    },
-    "contact":{
-        
-    }
+  "navbar": {
+    "title1": "DEV",
+    "title2": "PORT",
+    "languaje1": "English",
+    "languaje2": "Spanish",
+    "nav1": "About",
+    "nav2": "Work",
+    "nav3": "Skills"
+  },
+  "hero": {
+    "title1": "Full Stack",
+    "title2": "Developer",
+    "title3": "Building Modern Web Experiences",
+    "view": "View Projects",
+    "contact": "Contact Me"
+  },
+  "about": {
+    "title1": "About me",
+    "desc": "Full Stack Developer in training, with experience in React, Angular, Spring Boot, and SQL/NoSQL databases. Committed to continuous learning and creating efficient, innovative solutions.",
+    "link": "View my full resume here"
+  },
+  "skills": {
+    "title1": "Tech",
+    "title2": "Stack"
+  },
+  "projects": {
+    "title1": "Featured",
+    "title2": "Work",
+    "project1t": "School of Rights – Ombudsman's Office",
+    "project1d": "I contributed as an assistant in the development and maintenance of the educational platform for the Ombudsman's Office. I participated in improving features, fixing bugs, and creating new APIs for both backend and frontend.",
+    "project2t": "Informative Website – Lincoln Larrea Educational Unit",
+    "project2d": "I developed a modern, responsive institutional website with information for students and parents. It was built with React and Firebase for fast deployment and easy maintenance.",
+    "project3t": "FocusUp",
+    "project3d": "Web application focused on study techniques and productivity, developed with React, TypeScript, and Vite. Includes responsive design, reusable components, and an optimized interface for students.",
+    "view": "View Project →"
+  },
+  "contact": {
+    "title1": "Contact Me",
+    "desc": "If you’d like to collaborate or just say hello, feel free to send me a message below!",
+    "lb1": "Name",
+    "pc1": "Your Name",
+    "lb2": "Email",
+    "pc2": "you@example.com",
+    "lb3": "Message",
+    "pc3": "Write your meessage here...",
+    "sub": "Send Message",
+    "success": "Your message has been sent successfully!",
+    "error": "Oops! Something went wrong while sending your message"
+  }
 }

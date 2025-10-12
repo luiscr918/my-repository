@@ -7,22 +7,28 @@ export const HeroSection = () => {
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-            <span className="bg-gradient-to-r from-cyan-400 to-pink-500 bg-clip-text text-transparent animate-gradient-x">
+            <span className="bg-gradient-to-br from-cyan-800 via-teal-700 to-emerald-300 bg-clip-text text-transparent animate-gradient-x">
               {t("hero.title1")}
             </span>
             <br />
             {t("hero.title2")} &<br />
-            <span className="bg-gradient-to-r from-cyan-400 to-pink-500 bg-clip-text text-transparent animate-gradient-x">
+            <span className="bg-gradient-to-br from-cyan-800 via-teal-700 to-emerald-300 bg-clip-text text-transparent animate-gradient-x">
               {t("hero.title3")}
             </span>
           </h1>
           <div className="flex space-x-4">
-            <button className="px-6 py-3 bg-gradient-to-r from-cyan-400 to-pink-500 rounded-lg font-medium hover:shadow-lg transition">
+            <a
+              className="px-6 py-3 bg-gradient-to-br from-cyan-800 via-teal-700 to-emerald-300 rounded-lg font-medium hover:shadow-lg transition cursor-pointer"
+              href="#work"
+            >
               {t("hero.view")}
-            </button>
-            <button className="px-6 py-3 border border-white rounded-lg hover:bg-white/10 transition">
+            </a>
+            <a
+              className="px-6 py-3 border border-white rounded-lg hover:bg-white/10 transition cursor-pointer"
+              href="#contact"
+            >
               {t("hero.contact")}
-            </button>
+            </a>
           </div>
         </div>
         <div className="relative tilt-effect">
