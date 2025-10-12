@@ -1,5 +1,19 @@
 {
+   "navbar":{
+        "title1":"MI",
+        "title2":"PORTAFOLIO",
+        "languaje1":"Inglés",
+        "languaje2":"Español",
+        "nav1":"Sobre mí",
+        "nav2":"Mis Proyectos",
+        "nav3":"Tecnologías"
+   },
     "hero":{
+     "title1":"Desarrollador",
+     "title2":"Full Stack",
+     "title3":"Impulsando experiencias web modernas",
+     "view":"Mis Proyectos",
+     "contact":"Contáctame"
 
     },
     "about":{
@@ -9,7 +23,8 @@
 
     },
     "skills":{
-
+      "title1":"Stack",
+        "title2":"Tecnológico"
     },
     "projects":{
 

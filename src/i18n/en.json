@@ -1,6 +1,19 @@
 {
+    "navbar":{
+        "title1":"DEV",
+        "title2":"PORT",
+        "languaje1":"English",
+        "languaje2":"Spanish",
+        "nav1":"About",
+        "nav2":"Work",
+        "nav3":"Skills"
+   },
     "hero":{
-
+    "title1":"Full Stack",
+     "title2":"Developer",
+     "title3":"Building Modern Web Experiences",
+     "view":"View Projects",
+     "contact":"Contact Me"
     },
     "about":{
 
@@ -9,7 +22,8 @@
 
     },
     "skills":{
-
+        "title1":"Tech",
+        "title2":"Stack"
     },
     "projects":{
 
