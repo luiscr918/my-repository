@@ -89,7 +89,7 @@ export const ContactMe = () => {
 
           <button
             type="submit"
-            className="mt-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 transition-all font-semibold py-3 rounded-lg shadow-md hover:shadow-cyan-500/30"
+            className="mt-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 transition-all font-semibold py-3 rounded-lg shadow-md hover:shadow-cyan-500/30 cursor-pointer"
           >
             {t("contact.sub")}
           </button>

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "../styles/fonts.css";
-import { Languages, Menu, X } from "lucide-react";
+import { Languages, Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -29,29 +29,45 @@ export const Navbar = () => {
         {/* Desktop menu */}
         <div className="hidden md:flex items-center space-x-6">
           {/* Language selector */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 relative">
             <span className="text-cyan-300 font-semibold text-sm">
               <Languages />
             </span>
-            <select
-              value={lenguaje}
-              onChange={handleLanguageChange}
-              aria-label={t("navbar.languageSelector") || "Language"}
-              className="bg-transparent text-white font-bold border border-white/30 rounded px-2 py-1 hover:border-emerald-300 focus:outline-none cursor-pointer transition-colors"
-            >
-              <option value="en">{t("navbar.languaje1")}</option>
-              <option value="es">{t("navbar.languaje2")}</option>
-            </select>
+            <div className="relative">
+              <select
+                value={lenguaje}
+                onChange={handleLanguageChange}
+                aria-label={t("navbar.languageSelector") || "Language"}
+                className="appearance-none bg-gradient-to-br from-cyan-800 via-teal-700 to-emerald-300 text-white font-bold border border-white/30 rounded px-3 py-1 pr-8 hover:border-emerald-300 focus:outline-none cursor-pointer transition-colors"
+              >
+                <option value="en" className="bg-gray-900 text-white">
+                  {t("navbar.languaje1")}
+                </option>
+                <option value="es" className="bg-gray-900 text-white">
+                  {t("navbar.languaje2")}
+                </option>
+              </select>
+              <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 text-white w-4 h-4 pointer-events-none" />
+            </div>
           </div>
 
           {/* Links */}
-          <a href="#about" className="text-white font-bold hover:text-emerald-300 transition-colors">
+          <a
+            href="#about"
+            className="text-white font-bold hover:text-emerald-300 transition-colors"
+          >
             {t("navbar.nav1")}
           </a>
-          <a href="#work" className="text-white font-bold hover:text-emerald-300 transition-colors">
+          <a
+            href="#work"
+            className="text-white font-bold hover:text-emerald-300 transition-colors"
+          >
             {t("navbar.nav2")}
           </a>
-          <a href="#skills" className="text-white font-bold hover:text-emerald-300 transition-colors">
+          <a
+            href="#skills"
+            className="text-white font-bold hover:text-emerald-300 transition-colors"
+          >
             {t("navbar.nav3")}
           </a>
         </div>
@@ -67,22 +83,38 @@ export const Navbar = () => {
       {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden mt-2 flex flex-col items-center space-y-4 bg-black/50 p-4 rounded-xl">
-          <select
-            value={lenguaje}
-            onChange={handleLanguageChange}
-            className="bg-transparent text-white font-bold border border-white/30 rounded px-2 py-1 hover:border-emerald-300 focus:outline-none cursor-pointer transition-colors"
-          >
-            <option value="en">{t("navbar.languaje1")}</option>
-            <option value="es">{t("navbar.languaje2")}</option>
-          </select>
+          <div className="relative w-32">
+            <select
+              value={lenguaje}
+              onChange={handleLanguageChange}
+              className="appearance-none bg-transparent text-white font-bold border border-white/30 rounded px-3 py-1 pr-8 hover:border-emerald-300 focus:outline-none cursor-pointer transition-colors w-full"
+            >
+              <option value="en" className="bg-gray-900 text-white">
+                {t("navbar.languaje1")}
+              </option>
+              <option value="es" className="bg-gray-900 text-white">
+                {t("navbar.languaje2")}
+              </option>
+            </select>
+            <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 text-white w-4 h-4 pointer-events-none" />
+          </div>
 
-          <a href="#about" className="text-white font-bold hover:text-emerald-300 transition-colors">
+          <a
+            href="#about"
+            className="text-white font-bold hover:text-emerald-300 transition-colors"
+          >
             {t("navbar.nav1")}
           </a>
-          <a href="#work" className="text-white font-bold hover:text-emerald-300 transition-colors">
+          <a
+            href="#work"
+            className="text-white font-bold hover:text-emerald-300 transition-colors"
+          >
             {t("navbar.nav2")}
           </a>
-          <a href="#skills" className="text-white font-bold hover:text-emerald-300 transition-colors">
+          <a
+            href="#skills"
+            className="text-white font-bold hover:text-emerald-300 transition-colors"
+          >
             {t("navbar.nav3")}
           </a>
         </div>
