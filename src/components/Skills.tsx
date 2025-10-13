@@ -47,6 +47,11 @@ export const Skills = () => {
       type: "Database",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
     },
+    {
+      name: "GIT",
+      type: "Tool",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+    },
   ];
   const { t } = useTranslation();
   return (
