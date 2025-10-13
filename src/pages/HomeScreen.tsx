@@ -1,5 +1,6 @@
 import { AboutMe } from "../components/AboutMe";
 import { ContactMe } from "../components/ContactMe";
+import { FadeInOnScroll } from "../components/FadeInOnScroll";
 import { Footer } from "../components/Footer";
 import { HeroSection } from "../components/HeroSection";
 import { MyProjects } from "../components/MyProjects";
@@ -10,12 +11,24 @@ export const HomeScreen = () => {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <AboutMe />
-      <Skills />
-      <MyProjects />
-      <ContactMe />
-      <Footer />
+      <FadeInOnScroll>
+        <HeroSection />
+      </FadeInOnScroll>
+      <FadeInOnScroll>
+        <AboutMe />
+      </FadeInOnScroll>
+      <FadeInOnScroll>
+        <Skills />
+      </FadeInOnScroll>
+      <FadeInOnScroll>
+        <MyProjects />
+      </FadeInOnScroll>
+      <FadeInOnScroll>
+        <ContactMe />
+      </FadeInOnScroll>
+      <FadeInOnScroll>
+        <Footer />
+      </FadeInOnScroll>
     </>
   );
 };
