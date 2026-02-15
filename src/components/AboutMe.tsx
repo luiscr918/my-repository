@@ -30,7 +30,7 @@ export const AboutMe = () => {
 
               <p className="text-gray-300 mb-4">{t("about.desc")}</p>
               <a
-                href="https://drive.google.com/file/d/1Egcd_rl7UWu357Ky-GTgIh1Olm0c1Wsx/view?usp=sharing"
+                href="https://drive.google.com/file/d/1jz7f3nWLp_85XnLfRNe9u5tR66CZUGjS/view?usp=sharing"
                 target="_blank"
               >
                 <span className="text-cyan-300 cursor-pointer underline block mb-4">
