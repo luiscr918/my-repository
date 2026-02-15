@@ -56,7 +56,7 @@ export const AboutMe = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://i.postimg.cc/50znQZwv/paracv-ver2.jpg"
+          src="https://i.postimg.cc/JhBf6LtL/redim1.png"
           alt="Developer workspace"
         />
       </div>
