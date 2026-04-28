@@ -23,9 +23,9 @@ export const Skills = () => {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
     },
     {
-      name: "Tailwind",
-      type: "CSS",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      name: "Django",
+      type: "Backend",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
     },
     {
       name: "TypeScript",
