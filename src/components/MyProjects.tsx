@@ -27,6 +27,21 @@ export const MyProjects = () => {
       color: "matrix",
       link: "https://focusupluiscr918.netlify.app/",
     },
+    {
+      title: t("projects.project4t"),
+      desc: t("projects.project4d"),
+      tech: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Framer Motion",
+        "GSAP",
+      ],
+      img: "https://i.postimg.cc/vBjn4sHt/Captura-de-pantalla-2026-06-19-114552.png",
+      color: "neon",
+      link: "https://dracarysoft.com",
+    },
   ];
   return (
     <section id="work" className="py-20 px-8">

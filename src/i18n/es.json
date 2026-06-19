@@ -17,7 +17,7 @@
   },
   "about": {
     "title1": "Sobre mí",
-    "desc": "Desarrollador Full Stack en formación, con experiencia en React, Angular, Spring Boot y bases de datos SQL/NoSQL. Comprometido con el aprendizaje continuo y la creación de soluciones eficientes e innovadoras.",
+    "desc": "Tecnólogo Superior en Desarrollo de Software graduado, con experiencia en React, Angular, Spring Boot, Django y bases de datos SQL/NoSQL. Co-fundador de DracarySoft, agencia de desarrollo de software en Quito.",
     "link": "Mira mi cv completo aquí"
   },
   "skills": {
@@ -30,9 +30,11 @@
     "project1t": "Escuela de Derechos – Defensoría del Pueblo",
     "project1d": "Apoyé como ayudante en el desarrollo y mantenimiento de la plataforma educativa de la Defensoría del Pueblo. Participé en la mejora de funcionalidades, solución de errores y creación de nuevas APIs tanto en backend como frontend.",
     "project2t": "Página web informativa – Unidad Educativa Lincoln Larrea",
-    "project2d": "Desarrollé una web institucional moderna y responsiva con información para estudiantes y padres. Se implementó con React y Firebase para un despliegue rápido y mantenimiento sencillo.",
+    "project2d": "Desarrollé una web institucional moderna y responsi   va con información para estudiantes y padres. Se implementó con React y Firebase para un despliegue rápido y mantenimiento sencillo.",
     "project3t": "FocusUp",
     "project3d": "Aplicación web sobre técnicas de estudio y productividad, desarrollada con React, TypeScript y Vite. Incluye diseño responsivo, componentes reutilizables y una interfaz optimizada para estudiantes.",
+    "project4t": "DracarySoft – Agencia de Software",
+    "project4d": "Co-fundé y desarrollé el sitio web oficial de DracarySoft, agencia de desarrollo de software en Quito. Construido con React, TypeScript y animaciones avanzadas con Framer Motion y GSAP.",
     "view": "Ver Proyecto →"
   },
   "contact": {
